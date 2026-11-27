@@ -292,6 +292,7 @@ body {
   color: #334155;
   font-size: 0.95rem;
   overflow-wrap: anywhere;
+  white-space: pre-wrap;
 }
 
 .card-actions {
@@ -465,6 +466,8 @@ body {
 
 textarea.form-control {
   resize: vertical;
+  min-height: 115px;
+  line-height: 1.55;
 }
 
 /* ---------------- Alert Banner (Bottom-Right Toast) ---------------- */
